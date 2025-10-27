@@ -1,0 +1,31 @@
+<svg width="220" height="220" viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#ffe69b"/>
+      <stop offset="100%" stop-color="#f5c94c"/>
+    </radialGradient>
+  </defs>
+  <rect width="220" height="220" rx="40" fill="url(#bg)" />
+  <g transform="translate(30,25)">
+    <!-- Волосы -->
+    <path d="M30 80 Q70 0 120 80 Q100 160 30 80Z" fill="#3c2b20" />
+    <ellipse cx="75" cy="95" rx="55" ry="65" fill="#3c2b20" />
+    <!-- Лицо -->
+    <circle cx="75" cy="95" r="42" fill="#f9d7b7" />
+    <!-- Глаза -->
+    <circle cx="60" cy="90" r="6" fill="#2b1b13" />
+    <circle cx="90" cy="90" r="6" fill="#2b1b13" />
+    <!-- Улыбка -->
+    <path d="M60 108 Q75 120 90 108" stroke="#b66a38" stroke-width="3" fill="none" stroke-linecap="round" />
+    <!-- Бант -->
+    <circle cx="45" cy="55" r="8" fill="#ff79a5"/>
+    <circle cx="105" cy="55" r="8" fill="#ff79a5"/>
+    <path d="M45 55 Q75 35 105 55 Q75 70 45 55Z" fill="#ff99c9"/>
+    <!-- Тело -->
+    <path d="M50 135 Q75 160 100 135 Q105 175 45 175Z" fill="#4a7bf7"/>
+    <!-- Книга -->
+    <rect x="45" y="145" width="60" height="28" rx="4" fill="#fff"/>
+    <line x1="75" y1="145" x2="75" y2="173" stroke="#f6c453" stroke-width="2"/>
+  </g>
+  <text x="50%" y="205" text-anchor="middle" font-size="16" font-weight="bold" fill="#2b1b13" font-family="sans-serif">AI Bayan</text>
+</svg>
